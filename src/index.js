@@ -27,9 +27,14 @@ const PageContainerWrapper = styled.div`
 `
 const ParticleWrapper = styled.div`
     position: fixed;
-    width: 200vh;
-    height: 200vh;
+    margin: 0;
+    width: 100%;
+    height: 100%;
     z-index: -1;
+    @media (max-width: 768px) {
+    width: 250vw;
+    height: 130vh;
+  }
 `
 
 const App = () => {
@@ -41,30 +46,29 @@ const App = () => {
 
   return(
     <>
-    <Router>
-      <GlobalPageWrapper />
+    <GlobalPageWrapper />
         <ParticleWrapper>
         <Particles
           params={{
             "particles": {
               "number": {
-                "value": 70,
+                "value": 40,
                 "density": {
                   "enable": true,
-                  "value_area": 1000
+                  "value_area": 600
                 }
               },
               "color": {
                 "value": "#787880"
               },
               "shape": {
-                "type": "circle",
+                "type": "edge",
                 "stroke": {
                   "width": 1,
                   "color": "#787880"
                 },
                 "polygon": {
-                  "nb_sides": 8
+                  "nb_sides": 6
                 }
               },
               "opacity": {
@@ -78,11 +82,11 @@ const App = () => {
                 }
               },
               "size": {
-                "value": 4,
+                "value": 5,
                 "random": true,
                 "anim": {
                   "enable": false,
-                  "speed": 40,
+                  "speed": 35,
                   "size_min": 0.1,
                   "sync": false
                 }
@@ -90,13 +94,13 @@ const App = () => {
               "line_linked": {
                 "enable": true,
                 "distance": 150,
-                "color": "#787880",
+                "color": "#6b78b1",
                 "opacity": 1,
                 "width": 1
               },
               "move": {
                 "enable": true,
-                "speed": 6,
+                "speed": 5,
                 "direction": "none",
                 "random": true,
                 "straight": false,
@@ -110,7 +114,7 @@ const App = () => {
               }
             },
             "interactivity": {
-              "detect_on": "canvas",
+              "detect_on": "window",
               "events": {
                 "onhover": {
                   "enable": true,
@@ -130,18 +134,18 @@ const App = () => {
                   }
                 },
                 "bubble": {
-                  "distance": 400,
-                  "size": 40,
+                  "distance": 1000,
+                  "size": 10,
                   "duration": 2,
-                  "opacity": 8,
-                  "speed": 3
+                  "opacity": 0.5,
+                  "speed": 1
                 },
                 "repulse": {
                   "distance": 200,
                   "duration": 0.4
                 },
                 "push": {
-                  "particles_nb": 4
+                  "particles_nb": 1
                 },
                 "remove": {
                   "particles_nb": 2
@@ -153,6 +157,8 @@ const App = () => {
         />
       </ParticleWrapper>
         
+    <Router>
+      
         <PageContainerWrapper>
           <NavTab />
         </PageContainerWrapper>

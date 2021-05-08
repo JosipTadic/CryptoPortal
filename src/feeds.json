@@ -6,6 +6,12 @@
     },
     {
         "id": 2,
+        "heading": "DogeCoin ruši rekorde!",
+        "text": "DogeCoin prešao 0.70$ po coin-u te dosegao najvišu vrijednost do sada!",
+        "date": "08.05.2021"
+    },
+    {
+        "id": 3,
         "heading": "Prva objava",
         "text": "Ovo je prva objava portala Crypto Hrvatska. Ovom objavom svim posjetiteljima želimo dobrodošlicu. Portal će razvijati u skladu sa brojem posjetitelja. Određene značajke ovog portala još uvijek su u razvoju, stoga pozivamo na strpljenje.",
         "date": "07.05.2021"

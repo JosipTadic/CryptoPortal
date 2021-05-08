@@ -11,6 +11,10 @@ const StyledText = styled.p`
     text-align: center;
     font-size: 3vh;
     font-family: 'Arial', monospace;
+    @media (max-width: 768px) {
+    font-size: 2.8vh;
+    margin: 0.5rem;
+  }
 `
 const StyledText2 = styled.p`
     color: Black;
@@ -18,6 +22,10 @@ const StyledText2 = styled.p`
     text-align: center;
     font-size: 2.5vh;
     font-family: 'Arial', monospace;
+    @media (max-width: 768px) {
+    font-size: 2.3vh;
+    margin: 1.5rem;
+  }
 `
 
 const Start = () => {

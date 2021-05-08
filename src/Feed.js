@@ -12,14 +12,22 @@ const StyledHeading = styled.h1`
     text-align: center;
     font-size: 6vh;
     font-family: Garamond, serif;
+    @media (max-width: 768px) {
+    font-size: 4.5vh;
+    margin: 2rem;
+    }
 `
 const StyledText = styled.h2`
     color: black;
     margin: 2rem;
     font-style: normal;
     text-align: center;
-    font-size: 3vh;
+    font-size: 2.3vh;
     font-family: Georgia, serif;
+    @media (max-width: 768px) {
+    font-size: 2.5vh;
+    margin: 1.5rem;
+    }
 `
 const StyledDate = styled.h3`
     color: red;
@@ -27,6 +35,10 @@ const StyledDate = styled.h3`
     text-align: center;
     font-size: 1rem;
     font-family: 'Courier New', monospace;
+    @media (max-width: 768px) {
+    font-size: 1.6vh;
+    margin: 0.3rem;
+    }
 `
 
 const Feed = ({heading, text, date}) => {
