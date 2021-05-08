@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'styled-components';
 import MailIcon from '@material-ui/icons/Mail';
 import TextFieldsIcon from '@material-ui/icons/TextFields';
+import Link from '@material-ui/core/Link';
 
 const ContactWrapper = styled.div`
 margin-top:100px;
@@ -19,20 +20,15 @@ const ContactStyledText = styled.p`
     font-size: 2.5vh;
     }
 `
-const ContactStyledLink = styled.p`
-    cursor: default;
-    pointer-events: none;        
-    text-decoration: none;
-`
 
 const Contact = () => {
     return(
         <>        
             <ContactWrapper>
                 <Divider />
-                    <ContactStyledText><ContactStyledLink href="mailto:hrvatskacrypto@gmail.com?subject=Hello"><MailIcon /> E-Mail: HrvatskaCrypto@gmail.com</ContactStyledLink></ContactStyledText> 
+                    <ContactStyledText><Link href="mailto:hrvatskacrypto@gmail.com?subject=Hello"><MailIcon /> E-Mail: HrvatskaCrypto@gmail.com</Link></ContactStyledText> 
                 <Divider />   
-                    <ContactStyledText><ContactStyledLink href="https://www.tiktok.com/@cryptohrvatska?lang=en"><TextFieldsIcon /> TikTok: CryptoHrvatska</ContactStyledLink></ContactStyledText>
+                    <ContactStyledText><Link href="https://www.tiktok.com/@cryptohrvatska?lang=en"><TextFieldsIcon /> TikTok: CryptoHrvatska</Link></ContactStyledText>
                 <Divider />
             </ContactWrapper>      
         </>

@@ -32,8 +32,8 @@ const ParticleWrapper = styled.div`
     height: 100%;
     z-index: -1;
     @media (max-width: 768px) {
-    width: 250vw;
-    height: 130vh;
+    min-width: 3000px;
+    min-height: 3000px;
   }
 `
 
