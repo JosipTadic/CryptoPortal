@@ -32,8 +32,8 @@ const ParticleWrapper = styled.div`
     height: 100%;
     z-index: -1;
     @media (max-width: 768px) {
-    min-width: 3000px;
-    min-height: 3000px;
+    min-width: 1800px;
+    min-height: 1800px;
   }
 `
 
@@ -52,10 +52,10 @@ const App = () => {
           params={{
             "particles": {
               "number": {
-                "value": 40,
+                "value": 18,
                 "density": {
                   "enable": true,
-                  "value_area": 600
+                  "value_area": 500
                 }
               },
               "color": {
@@ -77,7 +77,7 @@ const App = () => {
                 "anim": {
                   "enable": false,
                   "speed": 1,
-                  "opacity_min": 0.2,
+                  "opacity_min": 1,
                   "sync": false
                 }
               },
