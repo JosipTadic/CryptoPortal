@@ -26,9 +26,9 @@ const Contact = () => {
         <>        
             <ContactWrapper>
                 <Divider />
-                    <ContactStyledText><Link href="mailto:hrvatskacrypto@gmail.com?subject=Hello"><MailIcon /> E-Mail: HrvatskaCrypto@gmail.com</Link></ContactStyledText> 
+                    <ContactStyledText><Link href="mailto:cryptotechportal@gmail.com?subject=Hello"><MailIcon /> E-Mail: cryptotechportal@gmail.com</Link></ContactStyledText> 
                 <Divider />   
-                    <ContactStyledText><Link href="https://www.tiktok.com/@cryptohrvatska?lang=en"><TextFieldsIcon /> TikTok: CryptoHrvatska</Link></ContactStyledText>
+                    <ContactStyledText><Link href="https://www.tiktok.com/@crypto_tech?lang=en"><TextFieldsIcon /> TikTok: crypto_tech</Link></ContactStyledText>
                 <Divider />
             </ContactWrapper>      
         </>

@@ -34,17 +34,17 @@ const Start = () => {
             
             <Wrapper>
                 <Divider />
-                    <StyledText>Registrirajte se klikom na link <a href="https://bitcoin-store.hr/en/?r=wKXdTKiGcc">OVDJE</a>. Nakon registracije na stranici možete pronaći više informacija.</StyledText>
+                    <StyledText>Register by clicking on the link <a href="https://bitcoin-store.hr/en/?r=wKXdTKiGcc">HERE</a>. After registering on the site you can find more information.</StyledText>
                 <Divider />
                     <StyledText2>
-                        Kriptovalute nisu prevara već neizbježna budućnost, postoji puno pojmova kojima se treba ovladati prije nego 
-                        osoba može smatrati kako razumije način funkcioniranja kriptovaluta. Ono što je olakšavajuće je to da već sada
-                        novac se može uložiti u Kriptovalute vrlo jednostavno, a procesi su opisani detaljnije na raznim stranicama.
-                        Ono što je bitno napomenuti je to da Kriptovalutama je skoro nemoguće uči u trag te postoji puno načina za prevaru.
-                        Iz tog razloga napomenjemo vam da se držite certficiranih i pouzdanih stranica, te da ne srljate. Također bitno je
-                        posebnu pažnju posvetiti svojim walletima jer ukoliko izgubite pristup vrlo vjerojatno će i sredstva ostati
-                        zaključana. Ovim putem odričemo se bilo kakve odgovornosti takvih i sličnih događaja, te vam želimo svu sreću 
-                        u budućim ulaganjima!
+                        Cryptocurrencies are not a scam but an inevitable future, there are a lot of concepts that need to be mastered before
+                         a person may feel that he understands the way cryptocurrencies work. What is relieving is that yes now
+                         money can be invested in cryptocurrencies very easily, and the processes are described in more detail on various sites.
+                         What is important to note is that Cryptocurrencies are almost impossible to trace and there are many ways to cheat.
+                         For this reason, we remind you to stick to certified and reliable sites, and not to rush. It also matters
+                         pay special attention to your wallets because if you lose access it is very likely that the funds will remain
+                         locked. We hereby disclaim any responsibility for such and similar events, and wish you all the best of luck
+                         in future investments!
                     </StyledText2>
                 <Divider />
             </Wrapper>

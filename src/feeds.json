@@ -1,25 +1,25 @@
 [
     {
         "id": 1,
-        "heading": "Dobro došli na Portal Crypto Hrvatska",
-        "text": "Ovdje možete pronaći novosti i zanimljivosti iz Crypto svijeta, a ukoliko želite sami početi se baviti Crypto valutama odaberite iz izbornika rubriku Kako započeti?"
+        "heading": "Welcome to Crypto Tech Portal",
+        "text": "Here you can find news and interesting facts from the Crypto world, and if you want to start dealing with Crypto currencies yourself, select the How to start? section from the menu."
     },
     {
         "id": 2,
-        "heading": "Ethereum dosegao najveću vrijednost do sada!",
-        "text": "Rast Ethereum-a dosegao novi rekord, vrijednost 1 ETH nadomak 4000$!",
+        "heading": "Ethereum has reached the highest value so far!",
+        "text": "Ethereum's growth reached a new record, the value of 1 ETH is almost $ 4,000!",
         "date": "09.05.2021"
     },
     {
         "id": 3,
-        "heading": "DogeCoin ruši rekorde!",
-        "text": "DogeCoin prešao 0.70$ po coin-u te dosegao najvišu vrijednost do sada!",
+        "heading": "DogeCoin breaks records!",
+        "text": "DogeCoin has crossed $ 0.70 per coin and has reached its highest value so far!",
         "date": "08.05.2021"
     },
     {
         "id": 4,
-        "heading": "Prva objava",
-        "text": "Ovo je prva objava portala Crypto Hrvatska. Ovom objavom svim posjetiteljima želimo dobrodošlicu. Portal će razvijati u skladu sa brojem posjetitelja. Određene značajke ovog portala još uvijek su u razvoju, stoga pozivamo na strpljenje.",
+        "heading": "First post",
+        "text": "This is the first publication of the Crypto Croatia portal. We welcome all visitors with this post. The portal will develop according to the number of visitors. Certain features of this portal are still under development, so we call for patience.",
         "date": "07.05.2021"
     }
 ]
