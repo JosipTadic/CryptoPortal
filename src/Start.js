@@ -34,7 +34,7 @@ const Start = () => {
             
             <Wrapper>
                 <Divider />
-                    <StyledText>Register by clicking on the link <a href="https://bitcoin-store.hr/en/?r=wKXdTKiGcc">HERE</a>. After registering on the site you can find more information.</StyledText>
+                    <StyledText>Register by clicking on the link <a href="https://www.binance.com/en/register?ref=UT3G7AWJ">HERE</a>. After registering on the site you can find more information.</StyledText>
                 <Divider />
                     <StyledText2>
                         Cryptocurrencies are not a scam but an inevitable future, there are a lot of concepts that need to be mastered before

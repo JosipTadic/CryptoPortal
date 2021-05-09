@@ -20,11 +20,11 @@ const NavTab = () => {
     <NavBarWrapper>
         <AppBar>
           <Tabs color="transparent" elevation={0} variant="fullWidth" textColor="secondary" centered>
-            <StyledTab component={RouterLink} to="/news" label="Novosti"/>
+            <StyledTab component={RouterLink} to="/news" label="News"/>
             <Divider orientation="vertical" flexItem />
-            <StyledTab component={RouterLink} to="/start" label="Kako započeti?"/>
+            <StyledTab component={RouterLink} to="/start" label="How to start"/>
             <Divider orientation="vertical" flexItem />
-            <StyledTab component={RouterLink} to="/contact" label="Kontakt"/>
+            <StyledTab component={RouterLink} to="/contact" label="Contact"/>
           </Tabs>
         </AppBar>
     </NavBarWrapper>
