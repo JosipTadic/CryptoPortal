@@ -1,2 +1,2 @@
-CryptoHrvatska - Web portal(stranica) s novostima iz "Crypto" svijeta.
-Korištene tehnologije: React,Styled-components,Material-UI
+CryptoPortal - Website with news from "Crypto" world.
+Tehnologies: React,Styled-components,Material-UI
